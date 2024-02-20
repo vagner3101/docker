@@ -8,4 +8,4 @@ docker-compose build
 echo "Subindo os contêineres..."
 docker-compose up -d
 
-echo "Pronto!"
+echo "Ambiente Pronto!"
