@@ -8,4 +8,6 @@ docker-compose build
 echo "Subindo os contêineres..."
 docker-compose up -d
 
+chmod -R 755 ./site
+
 echo "Ambiente Pronto!"
