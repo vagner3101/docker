@@ -37,7 +37,7 @@ services:
     build:
       context: ./docker/php
     volumes:
-      - ./site:/var/www/html
+      - ./site:/var/www/html/site
     restart: always
     depends_on:
       - postgres
